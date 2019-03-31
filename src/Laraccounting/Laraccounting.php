@@ -13,4 +13,8 @@ class Laraccounting
     public static function world() {
         return 'Hello World';
     }
+
+    public static function test(){
+        return 1;
+    }
 }
