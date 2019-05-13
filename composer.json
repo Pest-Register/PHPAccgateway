@@ -1,5 +1,5 @@
 {
-    "name": "Pest-Register/PHPAccounting-common",
+    "name": "pest-register/php-accounting-common",
     "description": "A common gateway package for all accounting softwares",
     "type": "library",
     "license": "MIT",
