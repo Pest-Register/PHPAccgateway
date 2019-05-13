@@ -1,12 +1,12 @@
 {
-    "name": "dylan/laraccounting-common",
+    "name": "Pest-Register/PHPAccounting-common",
     "description": "A common gateway package for all accounting softwares",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Dylan Aird",
-            "email": "dylan.aird595@gmail.com"
+            "email": "dylan@pestregister.com"
         }
     ],
     "require": {
