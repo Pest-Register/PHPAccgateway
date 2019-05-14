@@ -3,15 +3,15 @@
  * Abstract Request
  */
 
-namespace PhpAccounting\Common\Message;
+namespace PHPAccounting\Common\Message;
 
-use PhpAccounting\Common\Exception\InvalidRequestException;
-use PhpAccounting\Common\Exception\RuntimeException;
-use PhpAccounting\Common\Helper;
-use PhpAccounting\Common\Http\Client;
-use PhpAccounting\Common\Http\ClientInterface;
-use PhpAccounting\Common\ItemBag;
-use PhpAccounting\Common\ParametersTrait;
+use PHPAccounting\Common\Exception\InvalidRequestException;
+use PHPAccounting\Common\Exception\RuntimeException;
+use PHPAccounting\Common\Helper;
+use PHPAccounting\Common\Http\Client;
+use PHPAccounting\Common\Http\ClientInterface;
+use PHPAccounting\Common\ItemBag;
+use PHPAccounting\Common\ParametersTrait;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;
 
@@ -28,9 +28,9 @@ use Symfony\Component\HttpFoundation\Request as HttpRequest;
  * Example -- creating a request:
  *
  * <code>
- *   class MyRequest extends \PhpAccounting\Common\Message\AbstractRequest {};
+ *   class MyRequest extends \PHPAccounting\Common\Message\AbstractRequest {};
  *
- *   class MyGateway extends \PhpAccounting\Common\AbstractGateway {
+ *   class MyGateway extends \PHPAccounting\Common\AbstractGateway {
  *     function myRequest($parameters) {
  *       $this->createRequest('MyRequest', $parameters);
  *     }

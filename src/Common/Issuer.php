@@ -3,7 +3,7 @@
  * Issuer
  */
 
-namespace PhpAccounting\Common;
+namespace PHPAccounting\Common;
 
 /**
  * Issuer

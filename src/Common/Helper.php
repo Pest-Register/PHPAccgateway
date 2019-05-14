@@ -3,7 +3,7 @@
  * Helper class
  */
 
-namespace PhpAccounting\Common;
+namespace PHPAccounting\Common;
 
 use InvalidArgumentException;
 

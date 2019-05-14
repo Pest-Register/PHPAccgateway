@@ -3,10 +3,10 @@
  * Base payment gateway class
  */
 
-namespace PhpAccounting\Common;
+namespace PHPAccounting\Common;
 
-use PhpAccounting\Common\Http\Client;
-use PhpAccounting\Common\Http\ClientInterface;
+use PHPAccounting\Common\Http\Client;
+use PHPAccounting\Common\Http\ClientInterface;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;
 
@@ -268,15 +268,15 @@ abstract class AbstractGateway implements GatewayInterface
      * Create and initialize a request object
      *
      * This function is usually used to create objects of type
-     * PhpAccounting\Common\Message\AbstractRequest (or a non-abstract subclass of it)
+     * PHPAccounting\Common\Message\AbstractRequest (or a non-abstract subclass of it)
      * and initialise them with using existing parameters from this gateway.
      *
      * Example:
      *
      * <code>
-     *   class MyRequest extends \PhpAccounting\Common\Message\AbstractRequest {};
+     *   class MyRequest extends \PHPAccounting\Common\Message\AbstractRequest {};
      *
-     *   class MyGateway extends \PhpAccounting\Common\AbstractGateway {
+     *   class MyGateway extends \PHPAccounting\Common\AbstractGateway {
      *     function myRequest($parameters) {
      *       $this->createRequest('MyRequest', $parameters);
      *     }
@@ -291,7 +291,7 @@ abstract class AbstractGateway implements GatewayInterface
      *
      * @param string $class The request class name
      * @param array $parameters
-     * @return \PhpAccounting\Common\Message\AbstractRequest
+     * @return \PHPAccounting\Common\Message\AbstractRequest
      */
     protected function createRequest($class, array $parameters)
     {

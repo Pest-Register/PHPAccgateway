@@ -3,7 +3,7 @@
  * Fetch Issuers Response interface
  */
 
-namespace PhpAccounting\Common\Message;
+namespace PHPAccounting\Common\Message;
 
 /**
  * Fetch Issuers Response interface
@@ -23,7 +23,7 @@ interface FetchIssuersResponseInterface extends ResponseInterface
      *
      * These represent banks which the user must choose between.
      *
-     * @return \PhpAccounting\Common\Issuer[]
+     * @return \PHPAccounting\Common\Issuer[]
      */
     public function getIssuers();
 }

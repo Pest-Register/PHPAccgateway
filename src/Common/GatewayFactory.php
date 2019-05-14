@@ -3,10 +3,10 @@
  * Omnipay Gateway Factory class
  */
 
-namespace PhpAccounting\Common;
+namespace PHPAccounting\Common;
 
-use PhpAccounting\Common\Exception\RuntimeException;
-use PhpAccounting\Common\Http\ClientInterface;
+use PHPAccounting\Common\Exception\RuntimeException;
+use PHPAccounting\Common\Http\ClientInterface;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;
 
 /**

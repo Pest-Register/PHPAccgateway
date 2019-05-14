@@ -3,7 +3,7 @@
  * Request Interface
  */
 
-namespace PhpAccounting\Common\Message;
+namespace PHPAccounting\Common\Message;
 
 /**
  * Request Interface

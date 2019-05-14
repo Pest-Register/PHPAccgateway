@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpAccounting\Common\Exception;
+namespace PHPAccounting\Common\Exception;
 
 /**
  * Invalid Request Exception

@@ -1,14 +1,14 @@
 <?php
 
-namespace PhpAccounting\Common\Http;
+namespace PHPAccounting\Common\Http;
 
 use function GuzzleHttp\Psr7\str;
 use Http\Client\HttpClient;
 use Http\Discovery\HttpClientDiscovery;
 use Http\Discovery\MessageFactoryDiscovery;
 use Http\Message\RequestFactory;
-use PhpAccounting\Common\Http\Exception\NetworkException;
-use PhpAccounting\Common\Http\Exception\RequestException;
+use PHPAccounting\Common\Http\Exception\NetworkException;
+use PHPAccounting\Common\Http\Exception\RequestException;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;

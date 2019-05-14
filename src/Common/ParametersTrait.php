@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpAccounting\Common;
+namespace PHPAccounting\Common;
 
-use PhpAccounting\Common\Exception\InvalidRequestException;
+use PHPAccounting\Common\Exception\InvalidRequestException;
 use Symfony\Component\HttpFoundation\ParameterBag;
 
 trait ParametersTrait

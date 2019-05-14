@@ -3,9 +3,9 @@
  * Abstract Response
  */
 
-namespace PhpAccounting\Common\Message;
+namespace PHPAccounting\Common\Message;
 
-use PhpAccounting\Common\Exception\RuntimeException;
+use PHPAccounting\Common\Exception\RuntimeException;
 use Symfony\Component\HttpFoundation\RedirectResponse as HttpRedirectResponse;
 use Symfony\Component\HttpFoundation\Response as HttpResponse;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpAccounting\Common\Http\Exception;
+namespace PHPAccounting\Common\Http\Exception;
 
-use PhpAccounting\Common\Http\Exception;
+use PHPAccounting\Common\Http\Exception;
 
 class NetworkException extends Exception
 {

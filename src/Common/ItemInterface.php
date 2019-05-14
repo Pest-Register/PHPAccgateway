@@ -3,7 +3,7 @@
  * Cart Item interface
  */
 
-namespace PhpAccounting\Common;
+namespace PHPAccounting\Common;
 
 /**
  * Cart Item interface

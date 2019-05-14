@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpAccounting\Common\Http;
+namespace PHPAccounting\Common\Http;
 
-use PhpAccounting\Common\Http\Exception\NetworkException;
-use PhpAccounting\Common\Http\Exception\RequestException;
+use PHPAccounting\Common\Http\Exception\NetworkException;
+use PHPAccounting\Common\Http\Exception\RequestException;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 use Psr\Http\Message\UriInterface;

@@ -1,4 +1,4 @@
-# PhpAccounting Common
+# PHPAccounting Common
 
 **Core components for the Omnipay PHP payment processing library**
 
@@ -9,7 +9,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-[PhpAccounting](https://github.com/pestregister/PhpAccounting) is a PHP request library designed to be a middleman between accounting softwares, based on omnipays generic model
+[PHPAccounting](https://github.com/pestregister/PHPAccounting) is a PHP request library designed to be a middleman between accounting softwares, based on omnipays generic model
 ## Documentation
 
 Documentation Will Come soon

@@ -3,7 +3,7 @@
  * Cart Item Bag
  */
 
-namespace PhpAccounting\Common;
+namespace PHPAccounting\Common;
 
 /**
  * Cart Item Bag

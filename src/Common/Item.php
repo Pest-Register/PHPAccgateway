@@ -3,7 +3,7 @@
  * Cart Item
  */
 
-namespace PhpAccounting\Common;
+namespace PHPAccounting\Common;
 
 use Symfony\Component\HttpFoundation\ParameterBag;
 

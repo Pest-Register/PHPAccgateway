@@ -3,7 +3,7 @@
  * Payment gateway interface
  */
 
-namespace PhpAccounting\Common;
+namespace PHPAccounting\Common;
 
 /**
  * Payment gateway interface
@@ -12,29 +12,7 @@ namespace PhpAccounting\Common;
  * Omnipay gateway needs to define.
  *
  *
- * @method \PhpAccounting\Common\Message\NotificationInterface acceptNotification(array $options = array()) (Optional method)
- *         Receive and handle an instant payment notification (IPN)
- * @method \PhpAccounting\Common\Message\RequestInterface authorize(array $options = array())               (Optional method)
- *         Authorize an amount on the customers card
- * @method \PhpAccounting\Common\Message\RequestInterface completeAuthorize(array $options = array())       (Optional method)
- *         Handle return from off-site gateways after authorization
- * @method \PhpAccounting\Common\Message\RequestInterface capture(array $options = array())                 (Optional method)
- *         Capture an amount you have previously authorized
- * @method \PhpAccounting\Common\Message\RequestInterface purchase(array $options = array())                (Optional method)
- *         Authorize and immediately capture an amount on the customers card
- * @method \PhpAccounting\Common\Message\RequestInterface completePurchase(array $options = array())        (Optional method)
- *         Handle return from off-site gateways after purchase
- * @method \PhpAccounting\Common\Message\RequestInterface refund(array $options = array())                  (Optional method)
- *         Refund an already processed transaction
- * @method \PhpAccounting\Common\Message\RequestInterface fetchTransaction(array $options = [])             (Optional method)
- *         Fetches transaction information
- * @method \PhpAccounting\Common\Message\RequestInterface void(array $options = array())                    (Optional method)
- *         Generally can only be called up to 24 hours after submitting a transaction
- * @method \PhpAccounting\Common\Message\RequestInterface createCard(array $options = array())              (Optional method)
- *         The returned response object includes a cardReference, which can be used for future transactions
- * @method \PhpAccounting\Common\Message\RequestInterface updateCard(array $options = array())              (Optional method)
- *         Update a stored card
- * @method \PhpAccounting\Common\Message\RequestInterface deleteCard(array $options = array())              (Optional method)
+ * @method \PHPAccounting\Common\Message\RequestInterface deleteCard(array $options = array())              (Optional method)
  *         Delete a stored card
  */
 interface GatewayInterface

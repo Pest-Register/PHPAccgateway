@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpAccounting\Common\Http;
+namespace PHPAccounting\Common\Http;
 
 use Psr\Http\Message\RequestInterface;
 use Throwable;

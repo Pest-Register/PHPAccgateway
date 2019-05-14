@@ -3,7 +3,7 @@
  * Fetch Payment Methods Response interface
  */
 
-namespace PhpAccounting\Common\Message;
+namespace PHPAccounting\Common\Message;
 
 /**
  * Fetch Payment Methods Response interface
@@ -23,7 +23,7 @@ interface FetchPaymentMethodsResponseInterface extends ResponseInterface
      *
      * These represent separate payment methods which the user must choose between.
      *
-     * @return \PhpAccounting\Common\PaymentMethod[]
+     * @return \PHPAccounting\Common\PaymentMethod[]
      */
     public function getPaymentMethods();
 }

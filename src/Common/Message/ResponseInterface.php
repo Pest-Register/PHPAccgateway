@@ -3,7 +3,7 @@
  * Response interface
  */
 
-namespace PhpAccounting\Common\Message;
+namespace PHPAccounting\Common\Message;
 
 /**
  * Response Interface

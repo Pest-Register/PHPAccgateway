@@ -6,11 +6,11 @@
  * Time: 9:59 AM
  */
 
-namespace PhpAccounting;
+namespace PHPAccounting;
 
-use PhpAccounting\Common\GatewayFactory;
+use PHPAccounting\Common\GatewayFactory;
 
-class PhpAccounting
+class PHPAccounting
 {
     /**
      * Internal factory storage
