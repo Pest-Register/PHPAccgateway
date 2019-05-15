@@ -49,11 +49,13 @@ abstract class AbstractResponse implements ResponseInterface
      *
      * @param RequestInterface $request the initiating request.
      * @param mixed $data
+     * @param array $headers
      */
-    public function __construct(RequestInterface $request, $data)
+    public function __construct(RequestInterface $request, $data, $headers = [])
     {
         $this->request = $request;
         $this->data = $data;
+        $this->headers = $headers;
     }
 
     /**
