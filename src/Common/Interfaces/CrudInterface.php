@@ -12,8 +12,8 @@ namespace PhpAccounting\Common\Interfaces;
 interface CrudInterface
 {
 
-    public function create();
-    public function update();
-    public function get();
-    public function delete();
+    public function create(array $parameters = []);
+    public function update(array $parameters = []);
+    public function get(array $parameters = []);
+    public function delete(array $parameters = []);
 }
