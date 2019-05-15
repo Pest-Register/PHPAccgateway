@@ -12,8 +12,17 @@ namespace PHPAccounting\Common;
  * Omnipay gateway needs to define.
  *
  *
- * @method \PHPAccounting\Common\Message\RequestInterface deleteCard(array $options = array())              (Optional method)
+ * @method \PHPAccounting\Common\Message\RequestInterface entity(array $options = array())              (Required method)
  *         Delete a stored card
+ *  * @method \PHPAccounting\Common\Message\RequestInterface create(array $options = array())              (Optional method)
+ *         Delete a stored card
+ *  * @method \PHPAccounting\Common\Message\RequestInterface update(array $options = array())              (Optional method)
+ *         Delete a stored card
+ *  * @method \PHPAccounting\Common\Message\RequestInterface get(array $options = array())              (Optional method)
+ *         Delete a stored card
+ *  * @method \PHPAccounting\Common\Message\RequestInterface delete(array $options = array())              (Optional method)
+ *         Delete a stored card
+ *
  */
 interface GatewayInterface
 {
@@ -57,4 +66,5 @@ interface GatewayInterface
      * @return array
      */
     public function getParameters();
+
 }
