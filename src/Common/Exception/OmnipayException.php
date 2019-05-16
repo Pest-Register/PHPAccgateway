@@ -3,8 +3,8 @@
 namespace PHPAccounting\Common\Exception;
 
 /**
- * Omnipay Exception marker interface
+ * PHPAccounting Exception marker interface
  */
-interface OmnipayException
+interface PHPAccountingException
 {
 }

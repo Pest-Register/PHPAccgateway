@@ -5,6 +5,6 @@ namespace PHPAccounting\Common\Exception;
 /**
  * Runtime Exception
  */
-class RuntimeException extends \RuntimeException implements OmnipayException
+class RuntimeException extends \RuntimeException implements PHPAccountingException
 {
 }

@@ -7,7 +7,7 @@ namespace PHPAccounting\Common\Exception;
  *
  * Thrown when a gateway responded with invalid or unexpected data (for example, a security hash did not match).
  */
-class InvalidResponseException extends \Exception implements OmnipayException
+class InvalidResponseException extends \Exception implements PHPAccountingException
 {
     public function __construct($message = "Invalid response from payment gateway", $code = 0, $previous = null)
     {

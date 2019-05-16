@@ -7,6 +7,6 @@ namespace PHPAccounting\Common\Exception;
  *
  * Thrown when a request is invalid or missing required fields.
  */
-class InvalidRequestException extends \Exception implements OmnipayException
+class InvalidRequestException extends \Exception implements PHPAccountingException
 {
 }

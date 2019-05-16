@@ -8,7 +8,7 @@ namespace PHPAccounting\Common\Message;
 /**
  * Message Interface
  *
- * This interface class defines the standard functions that any Omnipay message
+ * This interface class defines the standard functions that any PHPAccounting message
  * interface needs to be able to provide.
  */
 interface MessageInterface

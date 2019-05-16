@@ -14,7 +14,7 @@ use Symfony\Component\HttpFoundation\Request as HttpRequest;
  * Base payment gateway class
  *
  * This abstract class should be extended by all payment gateways
- * throughout the Omnipay system.  It enforces implementation of
+ * throughout the PHPAccounting system.  It enforces implementation of
  * the GatewayInterface interface and defines various common attibutes
  * and methods that all gateways should have.
  *
@@ -38,7 +38,7 @@ use Symfony\Component\HttpFoundation\Request as HttpRequest;
  *   }
  * </code>
  *
- * For further code examples see the *omnipay-example* repository on github.
+ * For further code examples see the *PHPAccounting-example* repository on github.
  *
  */
 abstract class AbstractGateway implements GatewayInterface
@@ -197,7 +197,7 @@ abstract class AbstractGateway implements GatewayInterface
      *   }
      *
      *   // Create the gateway object
-     *   $gw = Omnipay::create('MyGateway');
+     *   $gw = PHPAccounting::create('MyGateway');
      *
      *   // Create the request object
      *   $myRequest = $gw->myRequest($someParameters);

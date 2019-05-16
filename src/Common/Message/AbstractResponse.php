@@ -13,7 +13,7 @@ use Symfony\Component\HttpFoundation\Response as HttpResponse;
  * Abstract Response
  *
  * This abstract class implements ResponseInterface and defines a basic
- * set of functions that all Omnipay Requests are intended to include.
+ * set of functions that all PHPAccounting Requests are intended to include.
  *
  * Objects of this class or a subclass are usually created in the Request
  * object (subclass of AbstractRequest) as the return parameters from the

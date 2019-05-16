@@ -8,7 +8,7 @@ namespace PHPAccounting\Common\Message;
 /**
  * Request Interface
  *
- * This interface class defines the standard functions that any Omnipay request
+ * This interface class defines the standard functions that any PHPAccounting request
  * interface needs to be able to provide.  It is an extension of MessageInterface.
  *
  */

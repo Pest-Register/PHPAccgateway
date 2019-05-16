@@ -9,11 +9,9 @@ namespace PHPAccounting\Common;
  * Payment gateway interface
  *
  * This interface class defines the standard functions that any
- * Omnipay gateway needs to define.
+ * PHPAccounting gateway needs to define.
  *
  *
- * @method \PHPAccounting\Common\Message\RequestInterface entity(array $options = array())              (Required method)
- *         Delete a stored card
  *  * @method \PHPAccounting\Common\Message\RequestInterface create(array $options = array())              (Optional method)
  *         Delete a stored card
  *  * @method \PHPAccounting\Common\Message\RequestInterface update(array $options = array())              (Optional method)

@@ -1,6 +1,6 @@
 <?php
 /**
- * Omnipay Gateway Factory class
+ * PHPAccounting Gateway Factory class
  */
 
 namespace PHPAccounting\Common;
@@ -10,20 +10,20 @@ use PHPAccounting\Common\Http\ClientInterface;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;
 
 /**
- * Omnipay Gateway Factory class
+ * PHPAccounting Gateway Factory class
  *
  * This class abstracts a set of gateways that can be independently
  * registered, accessed, and used.
  *
- * Note that static calls to the Omnipay class are routed to this class by
- * the static call router (__callStatic) in Omnipay.
+ * Note that static calls to the PHPAccounting class are routed to this class by
+ * the static call router (__callStatic) in PHPAccounting.
  *
  * Example:
  *
  * <code>
  *   // Create a gateway for the PayPal ExpressGateway
  *   // (routes to GatewayFactory::create)
- *   $gateway = Omnipay::create('ExpressGateway');
+ *   $gateway = PHPAccounting::create('ExpressGateway');
  * </code>
  *
  */

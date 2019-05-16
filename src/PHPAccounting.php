@@ -48,15 +48,15 @@ class PHPAccounting
     /**
      * Static function call router.
      *
-     * All other function calls to the Omnipay class are routed to the
-     * factory.  e.g. Omnipay::getSupportedGateways(1, 2, 3, 4) is routed to the
+     * All other function calls to the PHPAccounting class are routed to the
+     * factory.  e.g. PHPAccounting::getSupportedGateways(1, 2, 3, 4) is routed to the
      * factory's getSupportedGateways method and passed the parameters 1, 2, 3, 4.
      *
      * Example:
      *
      * <code>
      *   // Create a gateway for the PayPal ExpressGateway
-     *   $gateway = Omnipay::create('ExpressGateway');
+     *   $gateway = PHPAccounting::create('ExpressGateway');
      * </code>
      *
      * @see GatewayFactory

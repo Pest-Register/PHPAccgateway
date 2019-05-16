@@ -19,7 +19,7 @@ use Symfony\Component\HttpFoundation\Request as HttpRequest;
  * Abstract Request
  *
  * This abstract class implements RequestInterface and defines a basic
- * set of functions that all Omnipay Requests are intended to include.
+ * set of functions that all PHPAccounting Requests are intended to include.
  *
  * Requests of this class are usually created using the createRequest
  * function of the gateway and then actioned using methods within this
@@ -37,7 +37,7 @@ use Symfony\Component\HttpFoundation\Request as HttpRequest;
  *   }
  *
  *   // Create the gateway object
- *   $gw = Omnipay::create('MyGateway');
+ *   $gw = PHPAccounting::create('MyGateway');
  *
  *   // Create the request object
  *   $myRequest = $gw->myRequest($someParameters);
