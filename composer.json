@@ -28,7 +28,6 @@
             "PHPAccounting\\Common\\": "src/Common"
         }
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 
 }
