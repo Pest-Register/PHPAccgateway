@@ -1,6 +1,6 @@
-# PHPAccounting Common
+# PHPAccgateway
 
-**Core components for the PHPAccounting PHP payment processing library**
+** This package uses the core gateway components from the php leagues omnipay PHP payment processing library**
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
